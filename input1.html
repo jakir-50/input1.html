@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>using input type</title>
+        </head>
+        <style>
+            form{
+                padding-left:10px;
+                padding-right:10px;
+                border:2px solid red;
+                width:48%;
+                height: 680px;
+
+            }
+            label{
+                font-size:26px;
+                float:left;
+            }
+            .inp{
+                float:right;
+                height:45px;
+                width: 300px;
+                font: size 24px;
+            }
+            #submit{
+                height: 45px;
+                width:120px;
+                font: size 24px;
+                background-color:red;
+                color:white;
+                cursor:pointer;
+                border:none;
+                border-radius:12px;
+            }
+        </style>
+        <body>
+            <center>
+            <form>
+                <h1 style="color:red;">Registration Form</h1>
+            <label>First Name</label>
+            <input class="inp" type="text" required ><br><br><br>
+            <label>Last Name</label>
+            <input class="inp" type="text" required><br><br><br>
+            <label>Mob.No</label>
+            <input class="inp" type="number" required><br><br><br>
+            <label>Eamil Id</label>
+            <input class="inp" type="email" required><br><br><br>
+            <label>Password</label>
+            <input class="inp" type="password"  required><br><br><br>
+            <label>confirm password</label>
+            <input class="inp" type="password" required><br><br><br>
+            <label>Date Of Birth</label>
+            <input class="inp" type="date"><br><br><br><br><br><br>
+            <input id="submit" type="submit">
+            </form>
+            </center>
+            </body>
+    </html>
